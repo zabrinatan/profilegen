@@ -42,7 +42,7 @@
 
 .left img {
   height: 175px;
-  width: 40%;
+  width: 20%;
   display: inline-block;
   border: 5px solid black;
 
@@ -51,7 +51,8 @@
 .right input {
   height: 100px;
   width: 700px;
-
+  display: inline-block;
+  margin-right: 1em;
 }
 input[type="text"] {
   font-size: 75px;
@@ -66,4 +67,11 @@ input[type="text"] {
   font-size: 50px;
   width: 350px;
   height: 200px;
+}
+
+.enter {
+  height: 100px;
+  font-size:50px;
+  width: 150px;
+  display: inline-block;
 }
