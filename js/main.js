@@ -21,6 +21,13 @@ const profileImage = function () {
   if(age==='50 Years and Older' && build === 'Muscular' && hair === 'Bald' && gender==="Male" ) {
     $('.left').append('<img src="images/bald_50over_muscular.png">');
   }
+  if(age==='50 Years and Older' && build === 'Muscular' && hair !=='Bald' && gender==="Male" ) {
+    $('.left').append('<img src="images/50up_hair_muscular.jpg">');
+  }
+  if(age==='50 Years and Older' && build === 'Muscular' && hair !=='Bald' && gender==="Male" ) {
+    $('.left').append('<img src="images/50up_hair_muscular.jpg">');
+  }
+
 }
 
 $(document).ready(function() {
