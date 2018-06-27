@@ -23,22 +23,18 @@
   margin: 0 auto;
 }
 
-.content {
-  grid-row: 3;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
 .left {
-  grid-column: 1;
+  grid-column: 3;
 }
 
 .right {
-  grid-column:2;
+  grid-column:3;
 }
 
 .right p {
   text-align: center;
+  font-size: 100px;
 }
 .profile {
   display: inline-block;
@@ -50,4 +46,24 @@
   display: inline-block;
   border: 5px solid black;
 
+}
+
+.right input {
+  height: 100px;
+  width: 700px;
+
+}
+input[type="text"] {
+  font-size: 75px;
+}
+
+#q2 , #q3 , #q4 , #q5{
+  font-size: 50px;
+  width: 700px;
+}
+
+#start {
+  font-size: 50px;
+  width: 350px;
+  height: 200px;
 }

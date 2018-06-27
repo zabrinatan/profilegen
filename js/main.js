@@ -6,7 +6,7 @@ let hair;
 let animal;
 let food;
 let nextQuestion = 1;
-let questionHide = 1;
+let questionHide = 0;
 
 const updateProfile = function () {
   $('#p1').html(`Name: ${name}`); // update left-side details depending on input
@@ -42,9 +42,9 @@ $(document).ready(function() {
   $('#7').hide();
 
   //on click of next button
-  $('#next').on('click', function() {
-    $(`#${nextQuestion}`).show();
-    nextQuestion++;
+  $('#start').on('click', function() {
+      $('#0').hide(500);
+      $('#1').show(1000);
   })
 
   //on click of enter
@@ -61,7 +61,11 @@ $(document).ready(function() {
     $(`#${questionHide}`).hide(); //hides question upon enter
     questionHide++;
 
-    if(nextQuestion === 8) {
+    $(`#${nextQuestion}`).show(500);
+    nextQuestion++;
+
+
+    if(nextQuestion === 9) {
       updateProfile();
       profileImage();
     }
