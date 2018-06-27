@@ -95,6 +95,43 @@ $('.left').prepend('<img src="images/overweight_dark_woman_21.png">');
 if(age==='21-50 Years' && build === 'Overweight' && hair === 'Dark' && gender==="Male" ) {
 $('.left').prepend('<img src="images/overweight_dark_male.jpg">');
 }
+//less than 20 years old images
+if(age==='Less than 20 Years' && build === 'Muscular' && hair === 'Light' && gender==="Male" ) {
+$('.left').prepend('<img src="images/young_light_muscular_man.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Muscular' && hair === 'Light' && gender==="Female" ) {
+$('.left').prepend('<img src="images/young_muscular_woman.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Muscular' && hair ==='Dark' && gender==="Female" ) {
+$('.left').prepend('<img src="images/young_muscular_woman_dark.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Muscular' && hair ==='Dark' && gender==="Male" ) {
+$('.left').prepend('<img src="images/young_muscular_man.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Average' && hair === 'Light' && gender==="Male" ) {
+$('.left').prepend('<img src="images/young_average_light_man.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Average' && hair === 'Light' && gender==="Female" ) {
+$('.left').prepend('<img src="images/young_light_girl_average.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Average' && hair === 'Dark' && gender==="Female" ) {
+$('.left').prepend('<img src="images/young_dark_woman_average.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Average' && hair === 'Dark' && gender==="Male" ) {
+$('.left').prepend('<img src="images/young_male_average_dark.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Overweight' && hair === 'Light' && gender==="Male" ) {
+$('.left').prepend('<img src="images/young_light_overweight_man.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Overweight' && hair === 'Light' && gender==="Female" ) {
+$('.left').prepend('<img src="images/young_light_overweight_girl.jpg">');
+}
+if(age==='Less than 20 Years' && build === 'Overweight' && hair === 'Dark' && gender==="Female" ) {
+$('.left').prepend('<img src="images/young_dark_overweight_girl.jpeg">');
+}
+if(age==='Less than 20 Years' && build === 'Overweight' && hair === 'Dark' && gender==="Male" ) {
+$('.left').prepend('<img src="images/young_overweight_dark_boy.jpg">');
+}
 
 }
 
