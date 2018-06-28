@@ -8,6 +8,7 @@ let food;
 let nextQuestion = 1;
 let questionHide = 0;
 let defaultHidden = 1;
+let aboutMe;
 
 let imageSearch;
 
