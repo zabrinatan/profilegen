@@ -18,8 +18,10 @@ const updateProfile = function () {
   $('#p3').html(`Gender: ${gender}`);
   $('#p4').html(`Build: ${build}`);
   $('#p5').html(`Hair: ${hair}`);
-  $('#p6').html(`Favourite Animal: ${animal}`);
-  $('#p7').html(`Favourite Food: ${food}`);
+  // $('#p6').html(`Favourite Animal: ${animal}`);
+  // $('#p7').html(`Favourite Food: ${food}`);
+  $('.me').html(`I love walking my ${animal} at the park on weekends. A quiet night for me would be me eating ${food} while watching ${movie}. ${drink} tastes like feet.`);
+
 }
 const profileImage = function () {
   //51 years and Older images
@@ -165,6 +167,9 @@ $(document).ready(function() {
   $('#5').hide();
   $('#6').hide();
   $('#7').hide();
+  $('#8').hide();
+  $('.about-me').hide();
+  $('#9').hide();
 
   //on click of next button
   $('#start').on('click', function() {
@@ -182,6 +187,8 @@ $(document).ready(function() {
     hair = $('#q5').find(":selected").text();
     animal = $('#6 input').val();
     food = $('#7 input').val();
+    movie = $('#8 input').val();
+    drink = $('#9 input').val();
 
     $(`#${questionHide}`).hide(); //hides question upon enter
     questionHide++;
@@ -190,7 +197,7 @@ $(document).ready(function() {
     nextQuestion++;
 
 
-    if(nextQuestion === 9) {
+    if(nextQuestion === 11) {
       updateProfile();
       profileImage();
       // google.setOnLoadCallback(OnLoad);
